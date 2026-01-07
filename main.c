@@ -34,9 +34,13 @@ float _priceChecker(Parcel* parcel1) {
         return 6.9;
     }
 }
-int main(){
+int main(int argc){// try argc for weight
     Address address1= {"Am Mühlenloh","39","59872","Meschede"};
     Parcel package1= {1,18,address1};
+    if (argc >2) {
+        printf("Please enter 2 arguments\n");
+        return 1;
+    }
     printf("%.2f,%.2f,%s\n",package1.weight,package1.measurements,_addressmaker(&package1.address));
     float price = _priceChecker(&package1);
     printf("%.2f€ is the price for the parcel\n",price);
