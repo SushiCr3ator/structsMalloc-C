@@ -1,0 +1,3 @@
+C:/Users/$ETCL00-2PI1KPM3UV5N/CLionProjects/struts/cmake-build-debug/CMakeFiles/struts.dir
+C:/Users/$ETCL00-2PI1KPM3UV5N/CLionProjects/struts/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/$ETCL00-2PI1KPM3UV5N/CLionProjects/struts/cmake-build-debug/CMakeFiles/rebuild_cache.dir
