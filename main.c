@@ -35,7 +35,7 @@ float _priceChecker(Parcel* parcel1) {
     }
 }
 int main(int argc){// try argc for weight
-    Address address1= {"Am Mühlenloh","39","59872","Meschede"};
+    Address address1= {"Am bassel","3","36549","hauidhsudh"};
     Parcel package1= {1,18,address1};
     if (argc >2) {
         printf("Please enter 2 arguments\n");
